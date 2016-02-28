@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
-  get 'main/home'
+  root 'main#home'
+  get 'about' => 'main#about'
+  get 'bio' => 'main#bio'
+  get 'contact' => 'main#contact'
+  get 'enforcer' => 'main#enforcer'
+  get 'john-brown' => 'main#john_brown'
+  get 'cine-one-footage' => 'main#cine_one_broll'
+  get 'omega-man' => 'main#omega_man'
+  get 'enforcer-biz-plan' => 'main#enforcer_biz_plan'
+  get 'photography' => 'main#photography'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
