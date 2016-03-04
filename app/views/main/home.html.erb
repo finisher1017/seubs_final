@@ -1,2 +1,41 @@
 <% provide(:title, "Home") %>
 <h1>HOME</h1>
+<div class="row">
+    <div class="col-sm-6" ><a href="http://localhost:3000/john-brown" target="_top">
+    
+      <center>
+      <%= image_tag "main_middle.jpg" %>
+      <p>John Brown</p>
+      </center>
+
+  </a></div>
+    <div class="col-sm-6" ><a href="http://localhost:3000/john-brown" target="_top">
+    
+      <center>
+      <%= image_tag "main_middle.jpg" %>
+      <p>John Brown</p>
+      </center>
+
+  </a></div>
+  </div>
+<div class="well">
+  <a href="http://localhost:3000/john-brown" target="_top">
+    
+      <center>
+      <%= image_tag "main_middle.jpg" %>
+      <p>John Brown</p>
+      </center>
+
+  </a>
+
+</div>
+
+<%= link_to(raw("a <strong>strong</strong> link"), john_brown_path)  %>
+<a href="http://localhost:3000/john-brown" target="_top">
+<div id="john-brown" class="well">
+<center>
+<%= image_tag "main_middle.jpg" %>
+<p>John Brown</p>
+</center>
+</div>
+</a>
