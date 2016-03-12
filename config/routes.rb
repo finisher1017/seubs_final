@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'omega-man' => 'main#omega_man'
   get 'enforcer-biz-plan' => 'main#enforcer_biz_plan'
   get 'photography' => 'main#photography'
+  get 'resume' => 'main#resume'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
