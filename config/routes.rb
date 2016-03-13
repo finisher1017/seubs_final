@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'enforcer-biz-plan' => 'main#enforcer_biz_plan'
   get 'photography' => 'main#photography'
   get 'resume' => 'main#resume'
+  get 'lighting-test' => 'main#lighting_test'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

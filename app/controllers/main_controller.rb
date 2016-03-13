@@ -25,4 +25,7 @@ class MainController < ApplicationController
 
   def photography
   end
+
+  def lighting_test
+  end
 end

@@ -1,28 +1,21 @@
 <% provide(:title, "Home") %>
-<h1>HOME</h1>
+<h1>Featured Projects</h1>
 
- <div class="well">
-  <a href="http://www.seubsworld.com/john-brown" target="_top">
+<div class="container-fluid">
+  <div class="row">
     
-      <center>
-      <%= image_tag "https://s3.amazonaws.com/seubsworld-assets/assets/main_middle.jpg" %>
-      <p>John Brown - Biopic Screenplay</p>
-      </center>
+    <div class="col-sm-4"><a href="http://www.seubsworld.com/omega-man" target="_top">
+    <center><%= image_tag "https://s3.amazonaws.com/seubsworld-assets/assets/omega-man.jpg" %>
+      <p>The Omega Man - A Sound Experience</p></center></a></center><br><br>
 
-  </a>
-
-</div>
-
-<div class="well">
-  <a href="http://www.seubsworld.com/omega-man" target="_top">
+    <a href="http://www.seubsworld.com/photography" target="_top"><center><%= image_tag "https://s3.amazonaws.com/seubsworld-assets/assets/layla_paper.jpeg" %><p>Still Photography</center></a></div>
     
-      <center>
-      <%= image_tag "https://s3.amazonaws.com/seubsworld-assets/assets/omega-man.jpg" %>
-      <p>The Omega Man - A Sound Experience</p>
-      </center>
-
-  </a>
-
+    <div class="col-sm-4"><a href="http://www.seubsworld.com/john-brown" target="_top"><center><%= image_tag "https://s3.amazonaws.com/seubsworld-assets/assets/main_middle.jpg" %>
+      <p>John Brown - A Biopic Screenplay</p></center></a></div>
+    
+    <div class="col-sm-4"><a href="http://www.seubsworld.com/cine-one-footage" target="_top"><center><%= image_tag "https://s3.amazonaws.com/seubsworld-assets/assets/cine1-broll.png" %>Cine1 Footage</center></a></div>
+  
+  </div>
 </div>
 
 
