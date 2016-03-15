@@ -26,6 +26,20 @@ textarea {
   }
 }
 
+.paragraph {
+  position: absolute;
+  left: 285px;
+  word-wrap: break-word;
+  width: 700px;
+}
+
+.jb-paragraph {
+  position: absolute;
+  left: 230px;
+  word-wrap: break-word;
+  width: 800px;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
