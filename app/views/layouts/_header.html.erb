@@ -6,7 +6,7 @@
             <li><%= link_to "Home", root_path %></li>
             <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown">
-              Film <b class="caret"></b>
+              Projects <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to "John Brown", john_brown_path %></li>
@@ -27,7 +27,15 @@
               </li>
             </ul>
             </li>
-            <li><%= link_to "About", about_path %></li>
+             <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              About <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "Seubsworld", about_path %></li>
+              <li><%= link_to "My Resume", resume_path %></li>
+            </ul>
+            </li>
             <li><%= link_to "Contact", contact_path %></li>
       </ul>
     </nav>
