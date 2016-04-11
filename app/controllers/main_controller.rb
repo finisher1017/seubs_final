@@ -28,4 +28,7 @@ class MainController < ApplicationController
 
   def lighting_test
   end
+
+  def aim_mockup
+  end
 end
