@@ -15,3 +15,10 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree
+
+$("img").on("mouseover", function() {
+	$(this).addClass("link-border");
+});
+$("img").on("mouseout", function() {
+	$(this).removeClass("link-border");
+});
