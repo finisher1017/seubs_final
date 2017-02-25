@@ -10,7 +10,11 @@ gem 'faker',                   '1.7.2'
 gem 'carrierwave',             '1.0.0'
 gem 'mini_magick',             '4.6.0'
 gem 'fog',                     '1.38.0'
+<<<<<<< HEAD
 gem 'will_paginate',           '3.1.5' 
+=======
+gem 'will_paginate',           '3.1.5'
+>>>>>>> 6c8a1a5bc6d7695b82f5368144b20e9425941b2c
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass',          '3.3.7'
 gem 'sass-rails',              '5.0.6'
@@ -26,11 +30,15 @@ group :development, :test do
   gem 'sqlite3',     '1.3.13'
   gem 'byebug',      '9.0.6'
   gem 'web-console', '3.4.0'
+<<<<<<< HEAD
   gem 'spring',      '2.0.1'
+=======
+  gem 'spring',      '2.0.0'
+>>>>>>> 6c8a1a5bc6d7695b82f5368144b20e9425941b2c
 end
 
 group :test do
-  gem 'minitest-reporters', '1.1.12'
+  gem 'minitest-reporters', '1.1.13'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.4.6'
 end
@@ -38,6 +46,10 @@ end
 group :production do
   gem 'pg'              
   gem 'rails_12factor', '0.0.3'
+<<<<<<< HEAD
   gem 'puma',           '3.7.0'
+=======
+  gem 'puma',           '3.6.2'
+>>>>>>> 6c8a1a5bc6d7695b82f5368144b20e9425941b2c
 end
 
