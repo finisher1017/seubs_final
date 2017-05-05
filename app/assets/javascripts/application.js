@@ -10,11 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
+
+
 //= require bootstrap
+//= require jquery
 //= require turbolinks
 //= require_tree
+//= require jquery_ujs
 
 $("img").on("mouseover", function() {
 	$(this).addClass("link-border");
@@ -22,3 +24,16 @@ $("img").on("mouseover", function() {
 $("img").on("mouseout", function() {
 	$(this).removeClass("link-border");
 });
+
+
+//google analytics
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30084780-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
