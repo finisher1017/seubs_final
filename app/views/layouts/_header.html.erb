@@ -1,46 +1,42 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "SeubsWorld", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home", root_path %></li>
-            <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">
-              Projects <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "John Brown", john_brown_path %></li>
-              <li><%= link_to "Enforcer Screenplay", enforcer_path %></li>
-              <li><%= link_to "Enforcer Production", enforcer_biz_plan_path %></li>
-  
-              <li>
-                <%= link_to "Cine1 Footage", cine_one_footage_path %>
-              </li>
-              <li>
-                <%= link_to "Omega Man", omega_man_path %>
-              </li>
-              <li>
-                <%= link_to "Still Photography", photography_path %>
-              </li>
-              <li>
-                <%= link_to "Lighting Test", lighting_test_path %>
-              </li>
-              <li>
-                <%= link_to "A.I.M Mockup", aim_mockup_path %>
-              </li>
-            </ul>
-            </li>
-             <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">
-              About <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Seubsworld", about_path %></li>
-              <li><%= link_to "My Resume", resume_path %></li>
-            </ul>
-            </li>
-            <li><%= link_to "Contact", contact_path %></li>
-      </ul>
-    </nav>
+<ul class="header_nav">
+<li>
+<div class="dropdown">
+  <p class="dropbtn"><%= link_to "SeubsWorld", root_path, style: 'color:white; text-decoration:none;' %></p>
+</div>
+</li>
+<li class="drops right-mar">
+<div class="dropdown">
+  <p class="dropbtn"><%= link_to "Home", root_path, style: 'color:white; text-decoration:none;' %></p>
+</div>
+</li>
+<li class="right-mar">
+<div class="dropdown">
+  <p class="dropbtn">Projects</p>
+  <div class="dropdown-content">
+    <%= link_to "John Brown", john_brown_path %>
+    <%= link_to "Enforcer Screenplay", enforcer_path %>
+    <%= link_to "Enforcer Production", enforcer_biz_plan_path %>
+    <%= link_to "Cine1 Footage", cine_one_footage_path %>
+    <%= link_to "Omega Man", omega_man_path %>
+    <%= link_to "Still Photography", photography_path %>
+    <%= link_to "Lighting Test", lighting_test_path %>
+    <%= link_to "A.I.M Mockup", aim_mockup_path %>
   </div>
-</header>
+</div>
+</li>
+<li class="right-mar">
+<div class="dropdown">
+  <p class="dropbtn">About</p>
+  <div class="dropdown-content">
+    <%= link_to "Seubsworld", about_path %>
+    <%= link_to "My Resume", resume_path %>
+    <%= link_to "Contact", contact_path %>
+  </div>
+</div>
+</li>
+<li class="right-mar">
+<div class="dropdown">
+  <p class="dropbtn"><%= link_to "Contact", contact_path, style: 'color:white; text-decoration:none;' %></p>
+</div>
+</li>
+</ul>
